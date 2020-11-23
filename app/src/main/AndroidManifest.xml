@@ -9,13 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppExamen1">
+        <activity android:name=".reproductor_video"></activity>
+        <activity android:name=".reproductor_musica" />
         <activity
             android:name=".tabs"
             android:label="@string/title_activity_tabs"
-            android:theme="@style/ThemeBarra">></activity>
+            android:theme="@style/ThemeBarra">
+            >
+        </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

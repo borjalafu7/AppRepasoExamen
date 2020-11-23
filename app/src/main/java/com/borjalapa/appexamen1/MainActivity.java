@@ -105,4 +105,9 @@ TextView fecha;
         });
         newFragment.show(getSupportFragmentManager(), "DATEPICKER");
     }
+
+    public void IrMusica(View view) {
+        Intent i = new Intent(this,reproductor_musica.class);
+        startActivity(i);
+    }
 }

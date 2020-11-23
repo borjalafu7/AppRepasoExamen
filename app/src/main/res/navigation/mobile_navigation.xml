@@ -18,8 +18,8 @@
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.borjalapa.appexamen1.ui.reproductor.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_reproductor"
+        android:name="com.borjalapa.appexamen1.ui.reproductor.ReproductorFragment"
+        android:label="@string/title_reproductor"
+        tools:layout="@layout/fragment_reproductor" />
 </navigation>
